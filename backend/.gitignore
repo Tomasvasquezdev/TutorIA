@@ -1,0 +1,30 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de entorno y secretos
+# NOTA: versionamos el .env a propósito para facilitar la corrección de la cátedra
+# (ver README). Como buena práctica general, un .env NO debería subirse al repo.
+.env
+!.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base de datos SQLite local (para evitar subir la DB de desarrollo)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

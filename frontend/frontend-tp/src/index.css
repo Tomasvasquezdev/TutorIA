@@ -1,0 +1,6 @@
+/* index.css — reset mínimo. El estilo lo maneja Bootstrap + theme.css.
+   (Se removió el template de Vite que centraba #root, forzaba modo oscuro
+   y usaba un acento violeta, para unificar el look con la paleta azul.) */
+body {
+  margin: 0;
+}
