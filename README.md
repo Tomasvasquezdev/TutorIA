@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TutorIA — Sistema de Gestión de Turnos de Tutorías
 
 Aplicación **full stack** para la gestión de tutorías académicas, desarrollada como TP previo al
@@ -292,3 +293,27 @@ nunca** —ya que suele contener credenciales y secretos— y normalmente se exc
 distribuye un `.env.example` en su lugar. Tomamos esta decisión exclusivamente por tratarse de un
 trabajo práctico académico con un secreto de uso interno, priorizando la facilidad de evaluación. En un
 entorno real, el `.env` se mantendría fuera del control de versiones.
+=======
+Enunciado_TP_Previo_Parcial_2_2026_3k7.pdf
+Plan de desarrollo v2.md
+TEST.pdf
+enunciado.txt
+plan.txt
+.env
+# Excepción: versionamos el .env del backend a propósito para facilitar la
+# corrección de la cátedra (ver nota en README). NO es una buena práctica general.
+!backend/.env
+Enunciado.md
+contexto.md
+Plan de desarrollo v2.md
+
+Contexto/
+
+CLAUDE.md
+docs/
+
+# Dependencias y base de datos (no se versionan)
+node_modules/
+*.sqlite
+/.stitch_gestor_de_turnos_tutor_as
+>>>>>>> eb4aca9bb6cf13875764f06fb65895049e7d2138
