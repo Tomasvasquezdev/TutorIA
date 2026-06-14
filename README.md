@@ -2,8 +2,7 @@
 # TutorIA — Sistema de Gestión de Turnos de Tutorías
 
 Aplicación **full stack** para la gestión de tutorías académicas, desarrollada como TP previo al
-Parcial 2 de Desarrollo de Software (DDS) — Curso 3K7, 2026.
-
+Parcial 2 de Desarrollo de Software
 El sistema permite que **estudiantes** soliciten turnos, que **tutores** administren su agenda
 (confirmar / realizar) y que **administradores** supervisen disponibilidad, estados, conflictos y
 métricas. Resuelve el flujo completo de reserva → confirmación → seguimiento, con reglas de horario,
